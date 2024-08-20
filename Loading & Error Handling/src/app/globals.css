@@ -1,9 +1,0 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root{
-  background-color: pink;
-  font-size: 2rem;
-  
-}
