@@ -5,10 +5,7 @@ State refers to data that can change over time within a component.
 It is managed locally within the component and can trigger re-rendering when the data changes.
 In functional components, we use the useState hook to manage state.
 Example:
-
-jsx
-Copy code
-import { useState } from 'react';
+`import { useState } from 'react';
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -19,5 +16,5 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>Increment</button>
     </div>
   );
-}
+}`
 In this example, count is the state variable, and setCount is the function to update the state. Every time the button is clicked, the state is updated, and the component re-renders to show the new value.
