@@ -20,5 +20,5 @@ function Counter() {
       <button onClick={() => setCount(count + 1)}>Increment</button>
     </div>
   );
-}```
-In this example, count is the state variable, and setCount is the function to update the state. Every time the button is clicked, the state is updated, and the component re-renders to show the new value.
+}
+//In this example, count is the state variable, and setCount is the function to update the state. Every time the button is clicked, the state is updated, and the component re-renders to show the new value.
